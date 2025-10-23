@@ -3,65 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BREAKING THE SILENCE</title>
+  <title>Chance Medical Center LTD</title>
   <style>
-    /* כללי */
     body {
       margin: 0;
-      padding: 0;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #f0f4ff, #e0e7ff);
-      color: #222;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #d8b4fe, #a5b4fc);
+      color: #2b2b2b;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     header {
-      background: #3f51b5;
-      color: white;
-      padding: 20px;
       text-align: center;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+      padding: 40px 20px 10px;
     }
 
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
+    h1 {
+      font-size: 3rem;
       font-weight: 700;
+      letter-spacing: 1px;
+      color: #1e1e1e;
+      margin-bottom: 10px;
     }
 
     nav {
-      margin-top: 15px;
+      margin-top: 10px;
     }
 
     nav a {
-      margin: 0 15px;
+      margin: 0 12px;
       text-decoration: none;
-      color: white;
+      color: #1e1e1e;
       font-weight: 500;
-      font-size: 1.2rem;
-      padding: 8px 15px;
-      border-radius: 30px;
-      transition: background 0.3s;
+      font-size: 1.1rem;
+      padding: 8px 18px;
+      border-radius: 25px;
+      transition: background 0.3s, color 0.3s;
     }
 
     nav a:hover {
-      background: rgba(255, 255, 255, 0.2);
+      background: rgba(255, 255, 255, 0.3);
+      color: #111;
     }
 
     main {
-      max-width: 1000px;
+      max-width: 900px;
       margin: 40px auto;
       padding: 0 20px;
+      width: 100%;
     }
 
     .section {
       display: none;
       background: white;
       padding: 30px;
-      border-radius: 16px;
-      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      border-radius: 18px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
       margin-bottom: 40px;
       animation: fadeIn 0.5s ease-in-out;
     }
@@ -77,13 +77,13 @@
     }
 
     p {
-      font-size: 1.2rem;
+      font-size: 1.15rem;
       line-height: 1.7;
       margin-bottom: 20px;
     }
 
     .contact-box {
-      background: #e8eaf6;
+      background: #eef2ff;
       padding: 20px;
       border-radius: 12px;
       text-align: center;
@@ -96,6 +96,14 @@
       color: #3f51b5;
     }
 
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.95rem;
+      color: #333;
+      margin-top: auto;
+    }
+
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
@@ -104,10 +112,9 @@
 </head>
 <body>
   <header>
-    <h1>BREAKING THE SILENCE</h1>
+    <h1>Chance Medical Center LTD</h1>
     <nav>
       <a href="#" onclick="showSection('home')">Home</a>
-      <a href="#" onclick="showSection('about')">About</a>
       <a href="#" onclick="showSection('privacy')">Privacy</a>
       <a href="#" onclick="showSection('terms')">Terms</a>
     </nav>
@@ -115,35 +122,32 @@
 
   <main>
     <div id="home" class="section active">
-      <h2>Welcome to BREAKING THE SILENCE</h2>
-      <p>We’re an independent mobile game studio based in Israel. Our passion is creating simple yet highly addictive hyper-casual games that anyone can enjoy, anytime and anywhere.</p>
-      <p>Our mission: deliver quick, fun gaming experiences right at your fingertips.</p>
+      <h2>Welcome to Chance Medical Center LTD 🏥</h2>
+      <p>At Chance Medical Center LTD, we provide high-quality healthcare services with a focus on patient well-being and comfort. Our experienced team ensures personalized treatment and modern medical care for all patients.</p>
+      <p>We strive to create a safe and welcoming environment where everyone receives professional attention and the best possible care.</p>
       <div class="contact-box">
-        Questions or feedback? <br>
-        Contact us: <strong>itayhiyim@gmail.com</strong>
+        Questions or appointments?<br>
+        Contact us at: <strong>s81772059@gmail.com</strong>
       </div>
-    </div>
-
-    <div id="about" class="section">
-      <h2>About Us</h2>
-      <p>Plastica is a team of creative developers dedicated to hyper-casual entertainment. We design games that are quick to learn, fun to play, and hard to put down. Whether you’ve got five minutes or a whole evening, our games are made to bring joy.</p>
-      <p>We’re driven by creativity, minimalism, and innovation, striving to craft the next big tap-to-play hit.</p>
-      <p>Contact: <a href="mailto:gilonaria70@gmail.com">itayhiyim@gmail.com</a></p>
     </div>
 
     <div id="privacy" class="section">
       <h2>Privacy Policy</h2>
-      <p>Our apps are built and maintained as ad-supported experiences. We do not collect personal information. However, third-party services such as Unity and Google Play Services may collect anonymized data to enhance performance and deliver ads.</p>
-      <p>We respect your privacy and do not store personal data. For more information, please review the privacy policies of our partners.</p>
+      <p>Chance Medical Center LTD values your privacy. We do not share personal patient information without consent. Some third-party services used for appointment booking or patient management may collect anonymized data to improve service efficiency.</p>
+      <p>All data is handled securely and in compliance with relevant healthcare regulations to protect your privacy.</p>
     </div>
 
     <div id="terms" class="section">
       <h2>Terms of Use</h2>
-      <p>By using our app, you agree not to copy, modify, or redistribute it. Any misuse, including cheating or tampering, may lead to revoked access.</p>
-      <p>Our games are intended for casual entertainment. Internet connectivity may be required for full functionality. Users are responsible for data usage and device security.</p>
-      <p>We reserve the right to update or remove access to the app at any time without notice.</p>
+      <p>By using our services or website, you agree to follow our guidelines and respect our policies. Any misuse of our services, falsification of information, or unauthorized access may result in restricted access or legal action.</p>
+      <p>Our services are intended for healthcare and administrative purposes. You are responsible for providing accurate information and following medical advice from our professionals.</p>
+      <p>Chance Medical Center LTD reserves the right to update or modify our services, policies, and website content at any time without prior notice.</p>
     </div>
   </main>
+
+  <footer>
+    © 2025 Chance Medical Center LTD. All rights reserved.
+  </footer>
 
   <script>
     function showSection(id) {
@@ -153,5 +157,3 @@
   </script>
 </body>
 </html>
-
-
